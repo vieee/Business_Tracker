@@ -2,6 +2,7 @@ import React from "react";
 import "./App.scss";
 import { Login, Register } from "./components/login/index";
 
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +41,7 @@ class App extends React.Component {
               <Login containerRef={ref => (this.current = ref)} />
             )}
             {!isLogginActive && (
-              <Register containerRef={ref => (this.current = ref)} />
+              <Register containerRef={ref => (this.current = ref)} setLogin={}/>
             )}
           </div>
           <RightSide
