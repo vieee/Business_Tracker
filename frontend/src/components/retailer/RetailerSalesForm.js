@@ -4,7 +4,7 @@ import React from 'react'
 
 const RetailerSalesForm = () => {
     return (
-        <div>
+        <div className="base-container">
             
         </div>
     )
