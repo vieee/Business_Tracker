@@ -18,16 +18,17 @@ Here is a working live demo (After Installation):  http://localhost:3000/
 ### Registration Page
 Currently it is working on all Retailer and Wholesailers.
 
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/register.png)
 
-### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+### Querying Form
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/retailer.png)
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/add_sales.png)
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/add_buy.png)
 
 ### Charts
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
-
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/diag_1.png)
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/diag_2.png)
+![](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/diag_3.png)
 
 ## Mobile support
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
@@ -40,30 +41,24 @@ The WebApp is compatible with devices of all sizes and all OS's, and consistent 
 ## [Usage](https://iharsh234.github.io/WebApp/) 
 
 ### Development
-Want to contribute? Great!
+Install NPM & NodeJS!
 
-To fix a bug or enhance an existing module, follow these steps:
+To install, follow these steps:
 
 - Fork the repo
-- Create a new branch (`git checkout -b improve-feature`)
-- Make the appropriate changes in the files
+- Write the Command (`yarn install`)
+- Go to the (`frontend`) Folder
 - Add changes to reflect the changes made
-- Commit your changes (`git commit -am 'Improve feature'`)
-- Push to the branch (`git push origin improve-feature`)
-- Create a Pull Request 
-
-### Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
+- Write the Command (`yarn install`)
+- Type the Command (`yarn start`) in the Main Folder 
+- Go To (`http://localhost:3000/`)
 
 
 ## Built with 
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [ReactJS & FirebaseJS](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - ReactJS Simplifies Data Transfer Between different subsections of the website easing the user experience.
+- [FusionCharts API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
+- [Google Colab, Numpy & Matplotlib](http://getbootstrap.com/) - Extensive list of components and Environment Facilities for Data Analysis.
 
 
 ## To-do
@@ -73,6 +68,6 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Team
 
-[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
+[![Deepak Yadav](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/vieee)  | [![Krish Sukhani](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/KrishSukhani23/) | [![Sarthak Maniar](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/sarthakmaniar27) | [![Rhythm Munot](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/rhythm-munot)
 ---|---
-[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
+[Deepak Yadav ](https://github.com/vieee) |[Krish Sukhani ](https://github.com/KrishSukhani23) |[Sarthak Maniar ](https://github.com/sarthakmaniar27) |[Rhythm Munot](https://github.com/rhythm-munot)
