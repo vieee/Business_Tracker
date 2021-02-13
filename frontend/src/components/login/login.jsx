@@ -16,8 +16,6 @@ export class Login extends React.Component {
         super(props);
     }
 
-
-
     render() {
         return (
             <Router>
@@ -48,7 +46,7 @@ export class Login extends React.Component {
                             </div>
                             <div className="footer">
                                 <Link to="/retailer">
-                                    <button type="submit" className="btn">
+                                    <button type="submit" className="btn" onClick={this.props.setRetailer}>
                                         Login
                                     </button>
                                 </Link>

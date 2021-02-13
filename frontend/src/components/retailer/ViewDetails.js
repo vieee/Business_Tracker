@@ -1,0 +1,2 @@
+import "./styleRetailer.scss";
+

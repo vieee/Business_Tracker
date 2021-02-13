@@ -2,12 +2,13 @@ import React from "react";
 import "./App.scss";
 import { Login, Register } from "./components/login/index";
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isLogginActive: true
+      isLogginActive: true,
+      isRetailer: false,
+      isWholesailer: false,
     };
   }
 
@@ -26,28 +27,53 @@ class App extends React.Component {
       this.rightSide.classList.remove("left");
       this.rightSide.classList.add("right");
     }
-    this.setState(prevState => ({ isLogginActive: !prevState.isLogginActive }));
+    this.setState((prevState) => ({
+      isLogginActive: !prevState.isLogginActive,
+      isRetailer: false
+    }));
   }
 
+  changeRetailer() {
+    this.setState((prevState) => ({
+      isRetailer: !prevState.isRetailer,
+    }));
+  }
+
+  changeWholesailer() {
+    this.setState((prevState) => ({
+      isWholesailer: !prevState.isWholesailer,
+    }));
+  }
+
+
+
   render() {
-    const { isLogginActive } = this.state;
+    const { isLogginActive, isRetailer } = this.state;
     const current = isLogginActive ? "Register" : "Login";
     const currentActive = isLogginActive ? "login" : "register";
+    const finalStatus = isRetailer ? "Close" : current
     return (
       <div className="App">
         <div className="login">
-          <div className="container" ref={ref => (this.container = ref)}>
+          <div className="container" ref={(ref) => (this.container = ref)}>
             {isLogginActive && (
-              <Login containerRef={ref => (this.current = ref)} />
+              <Login
+                containerRef={(ref) => (this.current = ref)}
+                setRetailer={this.changeRetailer.bind(this)}
+                setWholesailer={this.changeWholesailer.bind(this)}
+              />
             )}
             {!isLogginActive && (
-              <Register containerRef={ref => (this.current = ref)} setLogin={this.changeState.bind(this)}/>
+              <Register
+                containerRef={(ref) => (this.current = ref)}
+                setLogin={this.changeState.bind(this)}
+              />
             )}
           </div>
           <RightSide
-            current={current}
+            current={finalStatus}
             currentActive={currentActive}
-            containerRef={ref => (this.rightSide = ref)}
+            containerRef={(ref) => (this.rightSide = ref)}
             onClick={this.changeState.bind(this)}
           />
         </div>
@@ -56,7 +82,7 @@ class App extends React.Component {
   }
 }
 
-const RightSide = props => {
+const RightSide = (props) => {
   return (
     <div
       className="right-side"
