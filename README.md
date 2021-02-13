@@ -68,6 +68,6 @@ To install, follow these steps:
 
 ## Team
 
-[![Deepak Yadav](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/vieee)  | [![Krish Sukhani](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/KrishSukhani23/) | [![Sarthak Maniar](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/sarthakmaniar27) | [![Rhythm Munot](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://github.com/rhythm-munot)
----|---
+[![Deepak Yadav](https://ui-avatars.com/api/?name=Deepak+Yadav)](https://github.com/vieee)  | [![Krish Sukhani](https://ui-avatars.com/api/?name=Krish+Sukhani)](https://github.com/KrishSukhani23/) | [![Sarthak Maniar](https://ui-avatars.com/api/?name=Sarthak+Maniar)](https://github.com/sarthakmaniar27) | [![Rhythm Munot](https://ui-avatars.com/api/?name=Rhythm+Munot)](https://github.com/rhythm-munot)
+            ---|---
 [Deepak Yadav ](https://github.com/vieee) |[Krish Sukhani ](https://github.com/KrishSukhani23) |[Sarthak Maniar ](https://github.com/sarthakmaniar27) |[Rhythm Munot](https://github.com/rhythm-munot)
