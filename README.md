@@ -15,8 +15,8 @@ Here is a working live demo (After Installation):  http://localhost:3000/
 
 ## Site
 
-### Landing Page
-Currently it is working on all Retailer Stocks, Wholesailer Stocks will be added soon.
+### Registration Page
+Currently it is working on all Retailer and Wholesailers.
 
 ![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
 
