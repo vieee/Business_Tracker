@@ -41,7 +41,7 @@ class App extends React.Component {
               <Login containerRef={ref => (this.current = ref)} />
             )}
             {!isLogginActive && (
-              <Register containerRef={ref => (this.current = ref)} setLogin={}/>
+              <Register containerRef={ref => (this.current = ref)} setLogin={this.changeState.bind(this)}/>
             )}
           </div>
           <RightSide
