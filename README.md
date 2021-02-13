@@ -1,5 +1,5 @@
-# ![WebApp](https://drive.google.com/file/d/1v2rxekMHVvU_knh-LgCqByASVTyEdSuY/view?usp=sharing)
-# WebApp
+# ![Business Tracker](https://github.com/vieee/spit_hackathon/blob/master/frontend/public/front.png)
+# Business Tracker
 <table>
 <tr>
 <td>
