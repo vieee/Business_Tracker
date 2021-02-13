@@ -3,20 +3,20 @@
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+  A Business Tracking Application using ReactJS, FirebaseJS and Colab to display history and predictive analysis of business stock growth in a given period of time. It helps analyze the growth of stocks from the  charts of stock performace in any period of time. It helps to judge sales and retail, with the principle of momentum investing, which returns 1% per month on average.
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Here is a working live demo :  https://iharsh234.github.io/WebApp/
+Here is a working live demo (After Installation):  http://localhost:3000/
 
 
 ## Site
 
 ### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
+Currently it is working on all Retailer Stocks, Wholesailer Stocks will be added soon.
 
 ![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
 
@@ -76,7 +76,3 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 [![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
 ---|---
 [Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
-
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
-
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
