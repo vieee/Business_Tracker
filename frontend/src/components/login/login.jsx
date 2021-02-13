@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable no-useless-constructor */
 import React from "react";
 import loginImg from "../../login.svg";
 
@@ -5,6 +7,8 @@ export class Login extends React.Component {
   constructor(props) {
     super(props);
   }
+
+  
 
   render() {
     return (
@@ -16,8 +20,8 @@ export class Login extends React.Component {
           </div>
           <div className="form">
             <div className="form-group">
-              <label htmlFor="username">Username</label>
-              <input type="text" name="username" placeholder="username" />
+              <label htmlFor="id">ID</label>
+              <input type="text" name="id" placeholder="ID" />
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
@@ -26,7 +30,7 @@ export class Login extends React.Component {
           </div>
         </div>
         <div className="footer">
-          <button type="button" className="btn">
+          <button type="submit" className="btn">
             Login
           </button>
         </div>
