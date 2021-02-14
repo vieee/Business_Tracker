@@ -6,11 +6,18 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      user: {},
       isLogginActive: true,
       isRetailer: false,
       isWholesailer: false,
     };
   }
+
+  setCurrentUser(value) {
+    this.setState({
+      user: value
+    })
+  } 
 
   componentDidMount() {
     //Add .right by default
@@ -67,6 +74,7 @@ class App extends React.Component {
               <Register
                 containerRef={(ref) => (this.current = ref)}
                 setLogin={this.changeState.bind(this)}
+                setCurrentUser={this.setCurrentUser.bind(this)}
               />
             )}
           </div>

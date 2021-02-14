@@ -65,5 +65,5 @@ To install, follow these steps:
 ## Team
 
 [![Deepak Yadav](https://ui-avatars.com/api/?name=Deepak+Yadav)](https://github.com/vieee)  | [![Krish Sukhani](https://ui-avatars.com/api/?name=Krish+Sukhani)](https://github.com/KrishSukhani23/) | [![Sarthak Maniar](https://ui-avatars.com/api/?name=Sarthak+Maniar)](https://github.com/sarthakmaniar27) | [![Rhythm Munot](https://ui-avatars.com/api/?name=Rhythm+Munot)](https://github.com/rhythm-munot)
-            ---|---
+          <br/> 
 [Deepak Yadav ](https://github.com/vieee) |[Krish Sukhani ](https://github.com/KrishSukhani23) |[Sarthak Maniar ](https://github.com/sarthakmaniar27) |[Rhythm Munot](https://github.com/rhythm-munot)

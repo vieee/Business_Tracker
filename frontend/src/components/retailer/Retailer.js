@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import RetailerSalesForm from "./RetailerSalesForm";
 import RetailerBuyForm from "./RetailerBuyForm";
 import ViewDetails from "./ViewDetails";
+import CurrentAnalysis from "./CurrentAnalysis";
 
 const Retailer = () => {
   return (
@@ -20,6 +21,9 @@ const Retailer = () => {
         <Route path="/retailer/view-details">
           <ViewDetails />
         </Route>
+        <Route path="/retailer/current-analysis">
+          <CurrentAnalysis />
+        </Route>
         <Route path="/retailer">
           <div className="base-container">
             <div className="header">Retailer</div>
@@ -32,6 +36,9 @@ const Retailer = () => {
               </Link>
               <Link to="/retailer/view-details">
                 <button className="btn">View Details</button>
+              </Link>
+              <Link to="/retailer/current-analysis">
+                <button className="btn">Current Analysis</button>
               </Link>
             </div>
           </div>

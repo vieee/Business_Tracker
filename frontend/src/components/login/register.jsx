@@ -2,9 +2,28 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useRef } from "react";
 import loginImg from "../../login.svg";
+// import { auth, database } from "../Firebase"
 
 
 export const Register = (props) => {
+
+  // function signUp(id, type, email, password) {
+  //   props.setLogin();
+  //   auth.createUserWithEmailAndPassword(email, password);
+  //   database.ref(`${type}/${id}`).set({
+  //     email: email,
+  //     type: type,
+  //     id: id,
+  //   });
+  // }
+
+  // useEffect(() => {
+  //   const unsubscribe = auth.onAuthStateChanged((user) => {
+  //     // setCurrentUser(user);
+  //   });
+
+  //   return unsubscribe;
+  // }, []);
 
   const IDref = useRef()
   const Emailref = useRef()
